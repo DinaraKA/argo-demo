@@ -29,6 +29,6 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: 
-   - secretName: cdev-artemis-tls
+   - secretName: dev-artemis-tls
      hosts:
        - dev-artemis.dinarakar.com
